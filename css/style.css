@@ -34,7 +34,7 @@ header nav a:hover{
     color: #fff
 }
 
-/* Main content - index.html */
+/* Main content */
 
 #main, #main2, #main3 {
     display: flex;
@@ -50,6 +50,23 @@ header nav a:hover{
 .homePic img{
     width: 100%;
     border-radius: 15px;
+}
+
+#history {
+    margin: 3%;
+
+}
+
+#picDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+    margin: 3%;
+}
+.menu {
+    border-radius: 15px;
+    width: 100%;
 }
 
 .textCard {
@@ -88,7 +105,7 @@ textarea  {
     padding: 15px;
     width: 90%;
     background-color: #f5f5f5;
-    color: #8a97a0;
+    color: black;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
     margin-bottom: 30px;
     resize: none;
